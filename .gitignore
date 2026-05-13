@@ -1,0 +1,78 @@
+# =========================================================================
+# GENERAL / OS SPECIFIC
+# =========================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========================================================================
+# IDE / EDITORS
+# =========================================================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# =========================================================================
+# FLUTTER / DART (smartphone directory)
+# =========================================================================
+smartphone/.dart_tool/
+smartphone/.flutter-plugins
+smartphone/.flutter-plugins-dependencies
+smartphone/.pub-cache/
+smartphone/.pub/
+smartphone/build/
+smartphone/coverage/
+smartphone/app.*.symbols
+smartphone/app.*.map.json
+
+# Android-specific build artifacts
+smartphone/android/app/debug/
+smartphone/android/app/profile/
+smartphone/android/app/release/
+
+# iOS-specific
+smartphone/ios/Flutter/.last_build_id
+smartphone/ios/Flutter/ephemeral/
+smartphone/ios/Flutter/GeneratedPluginRegistrant.h
+smartphone/ios/Flutter/GeneratedPluginRegistrant.m
+
+# =========================================================================
+# LARAVEL BACKEND (spk-api directory)
+# =========================================================================
+spk-api/vendor/
+spk-api/node_modules/
+spk-api/.env
+spk-api/.env.backup
+spk-api/.env.production
+spk-api/composer.phar
+spk-api/public/build/
+spk-api/public/hot/
+spk-api/public/storage/
+spk-api/storage/*.key
+spk-api/storage/framework/cache/data/*
+spk-api/storage/framework/views/*
+spk-api/storage/framework/sessions/*
+spk-api/storage/framework/testing/*
+spk-api/storage/logs/*
+spk-api/.phpunit.result.cache
+spk-api/.phpunit.cache
+spk-api/.phpactor.json
+spk-api/_ide_helper.php
+spk-api/.codex
+spk-api/.cursor/
+spk-api/.nova
+spk-api/.zed
+spk-api/auth.json
+spk-api/Homestead.json
+spk-api/Homestead.yaml
